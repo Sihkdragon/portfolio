@@ -3,8 +3,14 @@ import { Html, Head, Main, NextScript } from "next/document";
 const Document = () => {
   return (
     <Html>
-      <Head />
-      <body className="">
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <body className="font-basic">
+        <Main />
         <NextScript />
       </body>
     </Html>
