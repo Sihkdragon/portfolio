@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <div className="flex flex-col gap-y-28 justify-center items-center w-full h-full">
         <div className="text-center">
           <HeadingSecond color="light" classname="mb-4">
-            Hello I'm
+            Hello I&apos;m
           </HeadingSecond>
           <HeadingFirst color="main">Ditotisi Rasyid Sumpena</HeadingFirst>
         </div>

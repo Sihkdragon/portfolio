@@ -7,7 +7,7 @@ const LeftLayout = () => {
   return (
     <section className="bg-dark  relative ">
       <div className="w-full  -bottom-1 absolute">
-        <Image src={profilePic} className="" />
+        <Image src={profilePic} className="" alt="Profile Picture" />
       </div>
       <div className="absolute bottom-10 left-10">
         <HeadingSecond color="white">Ditotisi Rasyid Sumpena</HeadingSecond>
