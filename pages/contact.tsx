@@ -9,7 +9,12 @@ import HeadingSecond from "../components/atoms/HeadingSecond";
 import Button from "../components/atoms/Button";
 const ContactPage = () => {
   return (
-    <Layout PageHead="Contact" currentPage="contact" PageTitle="Contact">
+    <Layout
+      PageHead="Contact"
+      currentPage="contact"
+      PageTitle="Contact"
+      lastPage={true}
+    >
       <div className="grid grid-cols-2 w-full mt-12 pr-24 gap-y-7">
         <div className=" text-xl flex items-center font-extrabold text-main">
           <FontAwesomeIcon icon={faInstagram} className="w-6 mr-2" />

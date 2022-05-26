@@ -7,19 +7,25 @@ interface RightLayoutProps {
   children: React.ReactNode;
   PageHead: string;
   firstPage?: boolean;
+  lastPage?: boolean;
   currentPage: string;
 }
 const RightLayout = ({
   children,
   PageHead,
   firstPage,
+  lastPage,
   currentPage,
 }: RightLayoutProps) => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
     <section className="bg-white col-span-2 py-12 px-10 relative ">
-      <Navigator firstpage={firstPage} currentPage={currentPage} />
+      <Navigator
+        firstpage={firstPage}
+        lastpage={lastPage}
+        currentPage={currentPage}
+      />
       <div className="flex items-center justify-between relative">
         <HeadingFirst color="main">{PageHead}</HeadingFirst>
         <button
