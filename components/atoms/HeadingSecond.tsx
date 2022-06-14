@@ -11,7 +11,9 @@ const HeadingSecond = ({
   classname = "",
 }: PropsHeadingSecond) => {
   return (
-    <h2 className={`text-3xl font-${weight} text-${color} ${classname}`}>
+    <h2
+      className={`text-lg md:text-3xl font-${weight} text-${color} ${classname}`}
+    >
       {children}
     </h2>
   );

@@ -32,10 +32,10 @@ const Layout = ({
         <title>{PageTitle}</title>
       </Head>
       <main
-        className="w-full min-h-screen bg-cyan-900 py-8 relative grid grid-row"
+        className="w-full min-h-screen bg-cyan-900 p-2 md:py-8 relative grid grid-row"
         onClick={() => showMenu && setShowMenu(false)}
       >
-        <section className="container h-full bg-white grid grid-cols-3 shadow-lg drop-shadow-md ">
+        <section className="container h-full bg-dark flex flex-col md:grid  md:grid-rows-none md:grid-cols-3 shadow-lg drop-shadow-md ">
           <LeftLayout />
           <RightLayout
             PageHead={PageHead}

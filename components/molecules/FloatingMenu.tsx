@@ -10,7 +10,7 @@ const FloatingMenu = ({ show }: PropsFloatingMenu) => {
   }, [show]);
   return (
     <div
-      className={`absolute right-0 bg-dark border w-52 shadow-md rounded-md overflow-hidden transition duration-700 ${showStyle}`}
+      className={`absolute z-20 right-0 bg-dark border md:w-52 shadow-md rounded-md overflow-hidden transition duration-700 ${showStyle}`}
     >
       <ul className="grid grid-cols-1 text-white">
         <Link href={"/"}>

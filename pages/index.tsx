@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       firstPage={true}
       currentPage="home"
     >
-      <div className="flex flex-col gap-y-28 justify-center items-center w-full h-full">
+      <div className="flex flex-col gap-y-10 justify-center items-center w-full h-full">
         <div className="text-center">
           <HeadingSecond color="light" classname="mb-4">
             Hello I&apos;m
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           <HeadingFirst color="main">Ditotisi Rasyid Sumpena</HeadingFirst>
         </div>
         <HeadingSecond color="main" weight="semibold">
-          Junior Developer
+          Lazy People
         </HeadingSecond>
         <Button>CLICK FOR CV</Button>
       </div>

@@ -15,7 +15,7 @@ const ContactPage = () => {
       PageTitle="Contact"
       lastPage={true}
     >
-      <div className="grid grid-cols-2 w-full mt-12 pr-24 gap-y-7">
+      <div className="grid grid-cols-2 w-full mt-12 pr-24 gap-y-4">
         <div className=" text-xl flex items-center font-extrabold text-main">
           <FontAwesomeIcon icon={faInstagram} className="w-6 mr-2" />
           <span> Instagram</span>
@@ -53,7 +53,7 @@ const ContactPage = () => {
         <input
           type="text"
           id="email"
-          className="border-main rounded px-2 py-2 text-dark border-2 w-1/3"
+          className="border-main rounded px-2 py-2 text-dark border-2 md:w-64"
           placeholder="Example@mail.com"
         />
         <label htmlFor="message">Message</label>

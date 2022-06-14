@@ -30,21 +30,23 @@ const Navigator = ({ firstpage, lastpage, currentPage }: NavigatorProps) => {
   return (
     <div
       id="arrow-container"
-      className={`flex top-1/2  flex-col justify-center items-center gap-y-8 w-fit absolute right-2`}
+      className={`flex  flex-col justify-center items-center gap-y-8 w-fit`}
     >
       <div
-        className={firstpage ? `invisible` : `relative  pr-5 duration-500`}
+        className={
+          firstpage ? `invisible` : `relative pr-4 md:pr-5 duration-500`
+        }
         onClick={() => {
           router.push(Pagelists[PageNumber - 1]);
         }}
       >
         <NavigationArrow />
       </div>
-      <span className=" mx-auto block  rotate-90 text-main align-top">
+      <span className=" mx-auto block text-sm md:text-base  rotate-90 text-main align-top">
         Navigate
       </span>
       <div
-        className={lastpage ? `hidden` : `relative  pr-5 `}
+        className={lastpage ? `hidden` : `relative pr-4 md:pr-5 `}
         onClick={() => {
           router.push(Pagelists[PageNumber + 1]);
         }}

@@ -11,7 +11,9 @@ const HeadingFirst = ({
   classname = "",
 }: PropsHeadingFirst) => {
   return (
-    <h1 className={`text-5xl font-${weight} text-${color}  ${classname}`}>
+    <h1
+      className={`text-2xl sm:text-3xl md:text-5xl font-${weight} text-${color}  ${classname}`}
+    >
       {children}
     </h1>
   );
