@@ -61,6 +61,7 @@ const PortfolioPage = () => {
           href="https://sihkdragon.github.io/ProBuildy-CompanyProfile/"
           className="image-wrapper bg-dark  overflow-hidden relative group"
           target="_blank"
+          rel="noreferrer"
         >
           <Image
             src={comproimg}
@@ -79,6 +80,7 @@ const PortfolioPage = () => {
           className="image-wrapper bg-dark  overflow-hidden relative group"
           href="https://quiteclosergame.vercel.app/"
           target="_blank"
+          rel="noreferrer"
         >
           <Image
             src={quiteclose}
@@ -97,6 +99,7 @@ const PortfolioPage = () => {
           className="image-wrapper bg-dark overflow-hidden relative group"
           href="https://halaman-utama.vercel.app/"
           target="_blank"
+          rel="noreferrer"
         >
           <Image
             src={home}
