@@ -8,6 +8,7 @@ const portfolioLists = [
     path: "/public/img/home.png",
   },
   { id: 3, name: "Quite Closer Game", path: "../public/img/quiteclose.png" },
+  { id: 4, name: "Ethnology VSTi", path: "../public/img/ethnology.png" },
 ];
 
 export default portfolioLists;

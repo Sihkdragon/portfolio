@@ -5,11 +5,12 @@ import portfolioLists from "../database/portfolioLists";
 import comproimg from "../public/img/compro.png";
 import quiteclose from "../public/img/quiteclose.png";
 import home from "../public/img/home.png";
+import ethnology from "../public/img/ethnology.png";
 const PortfolioPage = () => {
   const [choose, setChoose] = useState("");
   return (
     <Layout PageTitle="Porfolio" PageHead="Portfolio" currentPage="portfolio">
-      <div className="mt-12 w-72 h-8 mb-4  rounded-md grid grid-cols-3 overflow-hidden">
+      <div className="w-72 h-8 mb-4  rounded-md grid grid-cols-3 overflow-hidden">
         <label
           htmlFor="all"
           className="flex justify-center items-center ml-0  w-full h-full bg-main text-white cursor-pointer hover:bg-main/90"
@@ -111,6 +112,24 @@ const PortfolioPage = () => {
           />
           <h1 className="text-white text-xs absolute bottom-6 left-3 duration-500 opacity-0 group-hover:opacity-100">
             {portfolioLists[1].name}
+          </h1>
+        </a>
+        <a
+          className="image-wrapper bg-dark overflow-hidden relative group"
+          href="https://sihkdragon.github.io/ethnology/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Image
+            src={ethnology}
+            height={400}
+            width={400}
+            objectFit="cover"
+            className="duration-500   group-hover:scale-125 group-hover:rotate-6  group-hover:opacity-50"
+            alt={portfolioLists[3].name}
+          />
+          <h1 className="text-white text-xs absolute bottom-6 left-3 duration-500 opacity-0 group-hover:opacity-100 shadow">
+            {portfolioLists[3].name}
           </h1>
         </a>
       </div>

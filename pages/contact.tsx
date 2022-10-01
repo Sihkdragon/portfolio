@@ -9,12 +9,7 @@ import HeadingSecond from "../components/atoms/HeadingSecond";
 import Button from "../components/atoms/Button";
 const ContactPage = () => {
   return (
-    <Layout
-      PageHead="Contact"
-      currentPage="contact"
-      PageTitle="Contact"
-      lastPage={true}
-    >
+    <Layout PageHead="Contact" currentPage="contact" PageTitle="Contact" lastPage={true}>
       <div className="grid grid-cols-2 w-full mt-12 pr-24 gap-y-4">
         <div className=" text-xl flex items-center font-extrabold text-main">
           <FontAwesomeIcon icon={faInstagram} className="w-6 mr-2" />
@@ -29,22 +24,9 @@ const ContactPage = () => {
           <MailIcon className="w-6 mr-2" />
           <span> Email</span>
         </div>
-        <span className=" text-xl inline-block text-right text-main">
-          ditolord@gmail.com
-        </span>
-        <div className=" text-xl flex items-center font-extrabold text-main">
-          <PhoneIcon className="w-6 mr-2" />
-          <span> Phone</span>
-        </div>
-        <span className=" text-xl inline-block text-right text-main">
-          0821-1741-6500
-        </span>
+        <span className=" text-xl inline-block text-right text-main">ditolord@gmail.com</span>
       </div>
-      <HeadingSecond
-        color="main"
-        classname="mt-14 flex items-center"
-        weight="semibold"
-      >
+      <HeadingSecond color="main" classname="mt-14 flex items-center" weight="semibold">
         <FontAwesomeIcon icon={faPencilAlt} className="w-6 mr-2" />
         Write Message to Me
       </HeadingSecond>

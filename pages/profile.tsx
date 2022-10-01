@@ -1,10 +1,4 @@
-import {
-  CalendarIcon,
-  HomeIcon,
-  MailIcon,
-  PhoneIcon,
-  UserIcon,
-} from "@heroicons/react/solid";
+import { CalendarIcon, HomeIcon, MailIcon, PhoneIcon, UserIcon } from "@heroicons/react/solid";
 import { NextPage } from "next";
 import React from "react";
 import HeadingFirst from "../components/atoms/HeadingFirst";
@@ -21,13 +15,6 @@ const ProfilePage: NextPage = () => {
         <span className="sm:text-lg md:text-xl inline-block text-right text-main">
           Ditotisi Rasyid Sumpena
         </span>
-        {/* <span className="sm:text-lg md:text-xl flex items-center font-extrabold text-main">
-          <CalendarIcon className="w-6 mr-2" />
-          Date of Birth
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block text-right text-main">
-          July, 03 2000
-        </span> */}
         <span className="sm:text-lg md:text-xl flex items-center font-extrabold text-main">
           <HomeIcon className="w-6 mr-2" />
           Address
@@ -41,12 +28,6 @@ const ProfilePage: NextPage = () => {
         <span className="sm:text-lg md:text-xl inline-block text-right text-main">
           ditolord@gmail.com
         </span>
-        {/* <span className="sm:text-lg md:text-xl flex items-center font-extrabold text-main">
-          <PhoneIcon className="w-6 mr-2" /> Phone
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block text-right text-main">
-          (+62) 821-1741-6500
-        </span> */}
       </div>
       <HeadingFirst color="main" classname="my-5">
         Education
@@ -74,7 +55,7 @@ const ProfilePage: NextPage = () => {
           UNIVERSITAS KOMPUTER INDONESIA
         </span>
         <span className="sm:text-lg md:text-xl inline-block text-right text-main ">
-          2018 - NOW
+          2018 - 2022
         </span>
       </div>
     </Layout>
