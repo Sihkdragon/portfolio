@@ -19,6 +19,7 @@ const ContactPage = () => {
           className=" text-xl inline-block text-right text-main underline hover:text-opacity-60"
           href="https://www.linkedin.com/in/ditotisi/"
           target="_blank"
+          rel="noreferrer"
         >
           linkedin.com/in/ditotisi
         </a>
@@ -30,6 +31,7 @@ const ContactPage = () => {
           className=" text-xl inline-block text-right text-main underline hover:text-opacity-60"
           href="https://instagram.com/ditotisi"
           target="_blank"
+          rel="noreferrer"
         >
           instagram.com/ditotisi
         </a>
