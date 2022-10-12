@@ -20,13 +20,13 @@ const ProfilePage: NextPage = () => {
           Address
         </span>
         <span className="sm:text-lg md:text-xl inline-block text-right text-main">
-          Tangerang, Indonesia
+          Bandung, Indonesia
         </span>
         <span className="sm:text-lg md:text-xl flex items-center font-extrabold text-main">
           <MailIcon className="w-6 mr-2" /> Email
         </span>
         <span className="sm:text-lg md:text-xl inline-block text-right text-main">
-          ditolord@gmail.com
+          ditotisirasyid@gmail.com
         </span>
       </div>
       <HeadingFirst color="main" classname="my-5">
@@ -34,28 +34,10 @@ const ProfilePage: NextPage = () => {
       </HeadingFirst>
       <div className="grid grid-cols-2 w-full gap-y-7">
         <span className="sm:text-lg md:text-xl inline-block font-extrabold text-main uppercase">
-          SDN SAGA V
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block text-right text-main ">
-          2006 - 2012
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block font-extrabold text-main uppercase">
-          MTS MIFTAHUL HUDA
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block text-right text-main ">
-          2012 - 2015
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block font-extrabold text-main uppercase">
-          MA MIFTAHUL HUDA
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block text-right text-main ">
-          2015 - 2018
-        </span>
-        <span className="sm:text-lg md:text-xl inline-block font-extrabold text-main uppercase">
           UNIVERSITAS KOMPUTER INDONESIA
         </span>
-        <span className="sm:text-lg md:text-xl inline-block text-right text-main ">
-          2018 - 2022
+        <span className="sm:text-lg md:text-xl inline-block text-right text-main tracking-wider">
+          2018 - 2022 (Teknik Informatika)
         </span>
       </div>
     </Layout>

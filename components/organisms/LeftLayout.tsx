@@ -11,10 +11,9 @@ const LeftLayout = () => {
       </div>
       <div className="absolute bottom-5 left-10 md:bottom-10 md:left-10">
         <HeadingSecond color="white">Ditotisi Rasyid Sumpena</HeadingSecond>
-        <HeadingSecond color="white" weight="medium">
-          Student
+        <HeadingSecond color="white" weight="extralight">
+          Junior Developer
         </HeadingSecond>
-        {/* <div className="text-light font-extrabold">tes</div> */}
       </div>
     </section>
   );

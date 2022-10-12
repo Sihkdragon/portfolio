@@ -2,9 +2,9 @@ import React from "react";
 import Layout from "../components/layout/Layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
-import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
+import { MailIcon } from "@heroicons/react/solid";
 import HeadingSecond from "../components/atoms/HeadingSecond";
 import Button from "../components/atoms/Button";
 const ContactPage = () => {
@@ -12,20 +12,36 @@ const ContactPage = () => {
     <Layout PageHead="Contact" currentPage="contact" PageTitle="Contact" lastPage={true}>
       <div className="grid grid-cols-2 w-full mt-12 pr-24 gap-y-4">
         <div className=" text-xl flex items-center font-extrabold text-main">
+          <FontAwesomeIcon icon={faLinkedin} className="w-6 mr-2" />
+          <span> LinkedIn</span>
+        </div>
+        <a
+          className=" text-xl inline-block text-right text-main underline hover:text-opacity-60"
+          href="https://www.linkedin.com/in/ditotisi/"
+          target="_blank"
+        >
+          linkedin.com/in/ditotisi
+        </a>
+        <div className=" text-xl flex items-center font-extrabold text-main">
           <FontAwesomeIcon icon={faInstagram} className="w-6 mr-2" />
           <span> Instagram</span>
         </div>
-        <Link href={"https://instagram.com/ditotisi"}>
-          <a className=" text-xl inline-block text-right text-main underline hover:text-opacity-60">
-            instagram.com/ditotisi
-          </a>
-        </Link>
+        <a
+          className=" text-xl inline-block text-right text-main underline hover:text-opacity-60"
+          href="https://instagram.com/ditotisi"
+          target="_blank"
+        >
+          instagram.com/ditotisi
+        </a>
         <div className=" text-xl flex items-center font-extrabold text-main">
           <MailIcon className="w-6 mr-2" />
           <span> Email</span>
         </div>
-        <span className=" text-xl inline-block text-right text-main">ditolord@gmail.com</span>
+        <span className=" text-xl inline-block text-right text-main">
+          ditotisirasyid@gmail.com
+        </span>
       </div>
+      {/** 
       <HeadingSecond color="main" classname="mt-14 flex items-center" weight="semibold">
         <FontAwesomeIcon icon={faPencilAlt} className="w-6 mr-2" />
         Write Message to Me
@@ -56,6 +72,7 @@ const ContactPage = () => {
           </Button>
         </div>
       </section>
+      */}
     </Layout>
   );
 };

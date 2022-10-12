@@ -1,5 +1,3 @@
-import React from "react";
-
 const portfolioLists = [
   { id: 1, name: "Company Profile", path: "../public/img/compro.png" },
   {

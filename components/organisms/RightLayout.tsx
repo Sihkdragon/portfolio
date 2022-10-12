@@ -20,7 +20,7 @@ const RightLayout = ({
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <section className="bg-white h-full md:col-span-2 py-8 md:py-12 px-2 sm:px-6 md:px-10 relative ">
+    <section className="bg-white h-full md:col-span-2 py-8 md:py-12 px-2 pl-4 sm:pl-0 sm:px-6 md:px-10 relative ">
       <div className="flex items-center justify-between relative">
         <HeadingFirst color="main">{PageHead}</HeadingFirst>
         <button
@@ -46,11 +46,7 @@ const RightLayout = ({
       </div>
       <main className="py-10 h-full flex">
         <div className="w-full h-full overflow-y-hidden">{children}</div>{" "}
-        <Navigator
-          firstpage={firstPage}
-          lastpage={lastPage}
-          currentPage={currentPage}
-        />
+        <Navigator firstpage={firstPage} lastpage={lastPage} currentPage={currentPage} />
       </main>
     </section>
   );

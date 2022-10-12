@@ -14,8 +14,8 @@ const Home: NextPage = () => {
           </HeadingSecond>
           <HeadingFirst color="main">Ditotisi Rasyid Sumpena</HeadingFirst>
         </div>
-        <HeadingSecond color="main" weight="semibold">
-          Lazy People
+        <HeadingSecond color="main" weight="semibold" classname="text-center">
+          Junior Software Developer
         </HeadingSecond>
         <Button
           onClick={() => {
